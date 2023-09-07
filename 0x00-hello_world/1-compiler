@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c -o "$ (echo $FILE | rev | cut -d '.' -f 2 1 rev) .o" $CFILE
+gcc $CFILE -c -o "$CFILE.o"
