@@ -1,8 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 
 /*
  * Function to print 10 times the numbers from 0 to 14
+ *
+ * Prints 10 lines of numbers, 0 to 14, followed by a newline
+ *
  */
 
 void more_numbers(void)
