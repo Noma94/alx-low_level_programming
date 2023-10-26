@@ -17,8 +17,9 @@ unsigned long int _pow(unsigned int base, unsigned int power)
 	for (a = 1; a <= power; a++)
 		num *= base;
 
-	return (um);
+	return (num);
 }
+
 
 /**
  * print_binary - prints a number in binary notation
@@ -42,7 +43,7 @@ void print_binary(unsigned long int n)
 			flag = 1;
 			_putchar('1');
 		}
-		elae if (flag == 1 || divisor == 1)
+		else if (flag == 1 || divisor == 1)
 		{
 			_putchar('0');
 		}
